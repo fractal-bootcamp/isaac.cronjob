@@ -54,8 +54,8 @@ async function getRecentActivity() {
     );
     const repos = reposResponse.data;
 
-    for (const repo of repos.slice(0, 10)) {
-      // Limit to first 10 repos to avoid rate limiting
+    for (const repo of repos.slice(0, 5)) {
+      // Limit to first 5 repos to avoid rate limiting
       const deploymentsResponse = await githubClient.get(
         `/repos/${repo.full_name}/deployments`,
         {
