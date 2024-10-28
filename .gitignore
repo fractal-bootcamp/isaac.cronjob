@@ -1,3 +1,41 @@
 # Amazon private key
 *.pem
+
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
 .env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional npm cache
+.npm
+
+# Coverage directory (if you use any testing tool with coverage)
+coverage/
+
+# Temporary files and caches
+tmp/
+temp/
+
+# Optional build directories
+dist/
+build/
