@@ -1,2 +1,3 @@
 # Amazon private key
 *.pem
+.env
